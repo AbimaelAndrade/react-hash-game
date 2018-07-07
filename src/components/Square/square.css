@@ -1,0 +1,46 @@
+.square {
+  outline: 0;
+  color: #fff;
+  background: linear-gradient(120deg, rgba(53, 82, 255, 1) 20%, rgba(1, 54, 159, 1) 100%);
+  border-radius: 4px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 0.4s;
+}
+
+.square img {
+    width: 80px;
+    height: 80px;
+}
+
+.square:hover,
+.square:active,
+.square:focus {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 48%, rgba(233, 234, 236, 1) 100%);
+}
+
+.square:hover,
+.square:active,
+.square:focus {
+    background: linear-gradient(120deg, rgba(24, 57, 255, 1) 20%, rgba(1, 33, 97, 1) 100%);
+}
+
+.square-draw {
+    background: linear-gradient(120deg, rgba(231, 67, 40, 1) 15%, rgba(145, 6, 21, 1) 100%);
+}
+
+.square-draw:hover,
+.square-draw:active,
+.square-draw:focus {
+    background: linear-gradient(120deg, rgb(209, 53, 28) 15%, rgb(104, 1, 12) 100%);
+}
+
+.square-score {
+    background: linear-gradient(120deg, rgba(118, 238, 106, 1) 15%, rgba(42, 145, 6, 1) 100%);
+}
+
+.square-score:hover,
+.square-score:active,
+.square-score:focus {
+    background: linear-gradient(120deg, rgb(84, 221, 71) 15%, rgb(27, 97, 2) 100%);
+}
+

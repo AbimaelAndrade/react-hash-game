@@ -1,0 +1,26 @@
+.board {
+     display: grid;
+     grid-template-columns: 100px 100px 100px;
+     grid-template-rows: 100px 100px 100px;
+     grid-gap: 5px;
+}
+
+.status {
+    font-size: 1.3em;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.btn-restart {
+    background: rgba(59, 64, 78, 1);
+    color: #fff;
+    margin-right: 10px;
+    border: 1px solid #fff;
+    font-size: 1em;
+    transition: all ease-in-out 0.4s;
+}
+
+.btn-restart:hover { 
+    background: #fff;
+    color: rgba(59, 64, 78, 1);
+}
